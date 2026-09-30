@@ -1,0 +1,46 @@
+#Data_Management_Plan would be early in and submitted to get grants + "who is doing what"
+Protocol will be in IRB application
+SOPs should be set before data collection begin
+
+README can be for a high-level description of the data (each type)
+
+A codebook is a one-pager of the data dictionary and provides high-level statistics
+"tell me about this dataset without me having to actually look at the data set"
+
+A data dictionary is like a map key - can have a README that clarifies data variables/answer meanings
+
+Consort diagrams show what big item needs which pieces of data to make sense (map of how you're funneling participants)
+
+update the README and Change Log as you continue and updates happen irl
+
+use #syntax to download and clean up data (R or SPSS (which I hate)) - cleaning data just means going through and making sure unusable bits are fixed or removed
+#explain_each_step_you_take_in_your_data_cleaning_plan - best to not do point-and-click in excel
+
+normalizing is comparing data from the raw data (compare it to dictionary to match the type of data that it's labeled as)
+
+reshaping data means moving from long (up and down) data organizing to wide (left to right) data organizing (repeated measures, longitudinal, generally larger data sets)
+#vice_versa as well
+
+
+De-Identifying Data: 
+- removing HIPPA identifies (direct identifies like names, DOB, address, etc.)
+- removing indirect identifies (race, income, gender, etc.) #combining multiple pieces of data can be pieces to a puzzle of re-identifying a participant
+#outliers are more easily identifiable
+(can transform data #ex. instead of DOB provide the age at time of data collection)
+reduce "bins" meaning wider ranges of certain types of data
+- can lead to data loss
+- need to weigh the pros and cons of keeping or discarding co-variables
+use "top and bottom" coding to make a floor and ceiling and/or round certain data (like SES ~ income) and/or add "noise" to certain data (can make data less reproducable)
+
+check for identifying information from #free-text portions and/or see if the free-response can be coded
+
+#IRB will ask about de-identification plan and how records will be different from data (turning the records into data)
+#this_makes_the_data_technically_not_from_humans for some reason - this is waht de-identifying does
+Emphasis on this being #mitigating impacts from sharing data
+
+want to use a repository with "long-term sustainability" and curation/quality assurance
+
+#embargo data for now + clear liscensing (will not stop AI usage or commercial/bad actor usage, but you did what you could)
+
+just analysis variables of data to initially publish so nobody "scoop"s you (analytical variables)
+#NIH has specific timeline that you must collect and publish data

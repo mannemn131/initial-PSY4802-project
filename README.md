@@ -2,3 +2,5 @@
 
 Basic subfields: cognition, neuropsychology, forensic, personality
 General Idea: trauma in critical ages for brain development and plasticity onto behavior (possibly focus on crimminal behavior)
+
+Data chosen: ICSPR - "Improving Officer Decision-Making"
